@@ -1,0 +1,40 @@
+[
+    { "id": 1, "name": "Real Madrid" },
+    { "id": 2, "name": "Barcelona" },
+    { "id": 3, "name": "Manchester City" },
+    { "id": 4, "name": "Manchester United" },
+    { "id": 5, "name": "Liverpool" },
+    { "id": 6, "name": "Chelsea" },
+    { "id": 7, "name": "Arsenal" },
+    { "id": 8, "name": "Tottenham" },
+
+    { "id": 9, "name": "Bayern Munich" },
+    { "id": 10, "name": "Borussia Dortmund" },
+    { "id": 11, "name": "RB Leipzig" },
+    { "id": 12, "name": "Bayer Leverkusen" },
+
+    { "id": 13, "name": "Paris Saint-Germain" },
+    { "id": 14, "name": "Olympique Marseille" },
+
+    { "id": 15, "name": "Juventus" },
+    { "id": 16, "name": "AC Milan" },
+    { "id": 17, "name": "Inter Milan" },
+    { "id": 18, "name": "Napoli" },
+    { "id": 19, "name": "AS Roma" },
+    { "id": 20, "name": "Lazio" },
+
+    { "id": 21, "name": "Atlético Madrid" },
+    { "id": 22, "name": "Sevilla" },
+    { "id": 23, "name": "Villarreal" },
+
+    { "id": 24, "name": "Ajax" },
+    { "id": 25, "name": "PSV Eindhoven" },
+    { "id": 26, "name": "Benfica" },
+    { "id": 27, "name": "Porto" },
+    { "id": 28, "name": "Sporting CP" },
+
+    { "id": 29, "name": "Galatasaray" },
+    { "id": 30, "name": "Celtic" },
+    { "id": 31, "name": "Shakhtar Donetsk" },
+    { "id": 32, "name": "Red Star Belgrade" }
+]
