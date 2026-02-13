@@ -1,6 +1,31 @@
 # ⚽ Projeto Champions
-
 Uma API REST desenvolvida em **Node.js** e **TypeScript** para gerenciar clubes e jogadores de futebol com estatísticas detalhadas.
+
+## 📝 Exemplo de Requisição
+
+### Listar jogador por id
+```bash
+GET /api/players/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Cristiano Ronaldo",
+  "club": "Manchester United",
+  "nationality": "Portugal",
+  "position": "Atacante",
+  "statistics": {
+    "Overall": 93,
+    "Pace": 89,
+    "Shooting": 93,
+    "Passing": 82,
+    "Dribbling": 87,
+    "Defending": 35,
+    "Physical": 79
+  }
+}
+```
+
 
 ## 📋 Características
 
@@ -81,31 +106,6 @@ npm run dist:start
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
 | GET | `/api/clubs` | Listar todos os clubes |
-
-## 📝 Exemplo de Requisição
-
-### Criar Jogador
-```bash
-POST /api/players
-Content-Type: application/json
-
-{
-  "id": 1,
-  "name": "Cristiano Ronaldo",
-  "club": "Manchester United",
-  "nationality": "Portugal",
-  "position": "Atacante",
-  "statistics": {
-    "Overall": 93,
-    "Pace": 89,
-    "Shooting": 93,
-    "Passing": 82,
-    "Dribbling": 87,
-    "Defending": 35,
-    "Physical": 79
-  }
-}
-```
 
 ### Listar Jogadores
 ```bash
